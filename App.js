@@ -1,14 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import Confetti from 'react-native-confetti';
-import Moment from 'moment';
+import moment from 'moment';
 
 export default class App extends React.Component {
 
   state = {todayIsSalamiDay: ''};
 
   check() {
-    this.setState({ todayIsSalamiDay: Moment('20170907').format('MMDD') == Moment().format('MMDD') });
+    let check = moment('20170907').format('MMDD') == moment().format('MMDD');
+    this.setState({ todayIsSalamiDay: check });
   }
 
   renderCheck() {

@@ -2,7 +2,9 @@
   "expo": {
     "sdkVersion": "20.0.0",
     "android": {
-      "package": "salamiday.com.johnlonganecker"
-    }
+      "package": "com.johnlonganecker.salamiday"
+    },
+    "name": "Is Today National Salami Day",
+    "icon": "salami-national-day.png"
   }
 }
