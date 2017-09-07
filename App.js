@@ -67,10 +67,6 @@ const styles = StyleSheet.create({
     paddingTop: 50,
     paddingBottom: 50
   },
-  buttonContainer: {
-    justifyContent: 'flex-start',
-    flexDirection: 'row'
-  },
   notificationContainer: {
     width: 200,
     backgroundColor: '#C46159',
@@ -86,6 +82,10 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontWeight: 'bold',
     fontSize: 24
+  },
+  buttonContainer: {
+    justifyContent: 'flex-start',
+    flexDirection: 'row'
   },
   buttonStyle: {
     flex: 0.5,
