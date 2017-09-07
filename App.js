@@ -13,7 +13,7 @@ export default class App extends React.Component {
   }
 
   renderCheck() {
-    const {notificationText} = styles;
+    const { notificationText } = styles;
 
     if (this.state.todayIsSalamiDay === true) {
       this._confettiView.startConfetti();
@@ -28,7 +28,7 @@ export default class App extends React.Component {
     }
     
     return (
-      <Text style={notificationText}>Click Below to check if today is National Salami Day!</Text>
+      <Text style={notificationText}>Tap below to check if today is National Salami Day!</Text>
     )
   }
 
